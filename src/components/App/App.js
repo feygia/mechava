@@ -39,7 +39,7 @@ const MedicalTranscription = () => {
     <div className='min-h-screen'>
       <Header/>
       <Main>
-        <Title/>
+        <Title />
         <Error error={error}/>
         <UploadingFiles uploadingFile={uploadingFile} selectedFileName={selectedFileName}/>
         <TranscriptionConfig

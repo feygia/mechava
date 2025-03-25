@@ -42,6 +42,7 @@ const MedicalTranscription = () => {
         <Title/>
         <Error error={error}/>
         <UploadingFiles uploadingFile={uploadingFile} selectedFileName={selectedFileName}/>
+        
         <TranscriptionConfig
             numSpeakers={numSpeakers}
             setNumSpeakers={setNumSpeakers}
